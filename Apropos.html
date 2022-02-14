@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Apropos</title>
+    <link href="page2.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+
+
+        function fnFormation() { 
+    document.getElementById('divcontent').innerHTML ="<br><br><br><object class='object' type='text/html' data='formation.html'></object>";
+ } 
+
+ function fnCompetences() { 
+
+document.getElementById('divcontent').innerHTML ="<br><br><br><object class='object' type='text/html' data='competences.html'></object>";
+} 
+function fnCentresInteret() { 
+
+
+document.getElementById('divcontent').innerHTML ="<br><br><br><object class='object' type='text/html' data='centresinteret.html'></object>";
+} 
+
+
+
+
+    </script>
+</head>
+
+
+
+
+<body>
+ 
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sidebar_btn"></i></label>
+        </br>
+        <div class="left_area">
+
+            <h2>A propos <span>De Moi</span></h2>
+        </div>
+
+
+    </header>
+    <!--head area end-->
+    <!--sidebar start-->
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+    <div class="sidebar">
+        <center>
+            <img src="photo.jpg" width="200" height="200" class="profile_image" alt="">
+            <h4>Maram</h4>
+
+        </center>
+    </br>
+</br>
+</br>
+</br>
+        <nav>
+            <button style="color:white" class = 'buttonmaram' id="bold" onclick="fnFormation()"> <span>Formation</span></button>
+            <button style="color:white" class = 'buttonmaram' id="bold" onclick="fnCompetences()"><span> Compétences</span></button>
+            <button style="color:white" class = 'buttonmaram' id="bold" onclick="fnCentresInteret()"><span> Centre d'înterêt</span></button>
+        </nav>
+        
+        <div class="language">
+            <h3 class="title" style="color:pink"> &#160 langues</h3>
+            <ul>
+                <li>
+                    <span class="text" style="color:white">Anglais</span>
+                    <span class="percent"><div style="width:80%; "></div></span>
+                </li>
+                </br>
+                <li>
+                    <span class="text" style="color:white">Francais</span>
+                    <span class="percent"><div style="width:50%; "></div></span>
+                </li>
+                </br>
+                <li>
+                    <span class="text" style="color:white">Arabe</span>
+                    <span class="percent"><div style="width:99%; "></div></span>
+                </li>
+                </br>
+                <li>
+                    <span class="text" style="color:white">Espagnol</span>
+                    <span class="percent"><div style="width:30%; "></div></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <center>
+        <strong>
+            <div class="content" id='divcontent'>
+
+                <br>
+                <br>
+                <h1 style="color:white"> B &#160 I &#160 E &#160 N&#160 V &#160E &#160N &#160U&#160 E</h1>
+               <img src="typing2.gif" height="600px" width="750px">
+
+
+            </div>
+        </strong>
+        
+    </center>
+</body>
+
+
+
+
+
+</html>

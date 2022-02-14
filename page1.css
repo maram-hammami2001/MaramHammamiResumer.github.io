@@ -1,0 +1,50 @@
+img {
+    border-radius: 50%;
+  }
+  
+body {
+    height: 100vh;
+    background-image: -webkit-linear-gradient(80deg, #ee83bc	 59%, #f6f6f6 41%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   }
+
+
+ 
+  .buttons{
+    display: play flex; 
+    flex-direction: column ; 
+  }
+  .btn
+  {
+text-decoration: none; 
+padding: 15px 25px; 
+font-size:  1.25rem; 
+position : relative ; 
+margin: 32px; 
+
+  }
+  /*button 2*/
+  .btn-2::after, .btn-2::before 
+  {
+    background-color: #fc0093;
+    border: 3px solid (63, 61, 61); 
+    border-radius: 50px;
+
+    content: ""; 
+    position :   absolute; 
+    width:calc(100% - 6px);
+    height : calc(100% - 6px);  
+    left : 0; 
+    bottom :0; 
+    z-index: -1;
+    transition: transorm 0.3 ease;
+  }
+  .btn-2:hover::after {
+    transform: translate(-5px,-5px); 
+
+  }
+  .btn-2:hover::after {
+    transform: translate(5px,5px); 
+
+  }
